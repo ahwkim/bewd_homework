@@ -89,6 +89,11 @@ Let's setup Git so our commits are attributed to us: https://help.github.com/art
 
 Now, whenever you want to clone a repository from Github to your machine you can simple use the HTTPS url and you should be good to go!
 
+
+
+
+
+
 Ruby Integers, Strings, Variables and Logic
 ===========================================
 
