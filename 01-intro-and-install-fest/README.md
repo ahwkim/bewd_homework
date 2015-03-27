@@ -15,16 +15,15 @@
 
 ###Agenda
 
-* Introduction from Robyn (15 min)
+* Introduction to GA (15 min)
 * Ice Breaker (20 min)
-* Introduction from Greg, Bita & Pete (10 min)
+* A Little Bit More About Us (10 min)
 * Schedule Graduation (5 min)
-* Create src/ (5 min)
-* Install homebrew, rbenv and Ruby 2.2 (45 min)
-* Install git using homebrew (5 min)
+* Create Source Code Directory (5 min)
+* Installfest (50 min)
 * ~~ BREAK ~~ (roughly 11:45am)
 * Setup git and Github credential helper (10 min)
-* Clone curriculum into src/ (5 min)
+* Clone The Curriculum (5 min)
 * Practice pulling changes to the curriculum (5 min)
 * Create homework on Github and clone to src/ on computer (5 min)
 * Pushing to our homework repository (10 min)
@@ -33,12 +32,28 @@
 * Codealong Hello World (15 minutes)
 
 ---
+##Introduction to GA
+
+Presentation from Robyn.
+
+##Ice Breaker
+
+Let's go around the room and share...
+
+* Your name
+* What you do
+* What you hope to get out of BEWD
+* Your favorite ice cream flavor (yummmm)
+
+##A Little Bit More About Us
+
+Greg, Bita and Peter
 
 ##Schedule Graduation
 
 Go here to vote: http://goo.gl/forms/kt9HrvDkgM
 
-##Create Source Code Folder
+##Create Source Code Directory
 
 This is only a convention, but one most developers follow so it'll keep us all on the same page if we do to! We're going to create a src folder in our home directory.
 
@@ -56,7 +71,7 @@ Done. `mkdir` is the Unix command for _make directory_. Directory is the name fo
 
 Keep all your projects in this directory, organized in sub-directories by name. Build those developer good habits early!
 
-##InstallFest Woooo
+##Installfest
 
 We're now going to install homebrew, rbenv and ruby 2.2. You're probably wondering what those are, right?
 
@@ -70,7 +85,7 @@ Let's go to the slides! http://slides.com/bitadj/bewd/live
 
 You can copy and paste from the slides, so open them above and follow along.
 
-##Finish Git Setup
+##Setup git and Github credential helper
 
 Let's setup Git so our commits are attributed to us: https://help.github.com/articles/set-up-git/
 
@@ -262,22 +277,4 @@ More simply, we wrote some instructions (actually just one instruction) and then
 
 We know the program is finished because we've got an empty prompt `$` in Terminal. Not all programs run once and stop, though. Some run for a while and some run until they're stopped. But that's down the road from here (aka next class haha).
 
-Great job! 
-
----
-
-#Ruby Integers, Strings, Variables and Logic
-
-###Objectives
-
-* Write and run first script
-* Introduce integers
-* Use operators +, -, *, /, %
-* Practice using integers
-* Use puts
-* Strings
-* String addition
-* Variables
-* Variables as pointers
-* Logic with if statements
-* Logic using variables
+Great job!
