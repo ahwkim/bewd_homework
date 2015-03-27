@@ -62,7 +62,7 @@ We're now going to install homebrew, rbenv and ruby 2.2. You're probably wonderi
 
 * **Homebrew** is a package manager. Homebrew will install packges properly for us. It handles a lot of things that are usually a pain like loading our packages into our PATH, upgrading packages, and managing the relationships between packages when they depend on each other.
 
-* **rbenv** is a Ruby version manager. Overtime, Ruby will continue to mature. A year from now, you'll have our code which we wrote with Ruby 2.2. You'll also have newer projects using Ruby 2.3 or 2.4 if those are out. rbenv manages different versions of ruby on one computer, using the correct one per project.
+* **rbenv** is a Ruby version manager. Over time, Ruby will continue to mature. A year from now, you'll have our code which we wrote with Ruby 2.2. You'll also have newer projects using Ruby 2.3 or 2.4 if those are out. rbenv manages different versions of ruby on one computer, using the correct one per project.
 
 * **Ruby** is, well, the best programming language ever. :)
 
