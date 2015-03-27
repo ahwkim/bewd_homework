@@ -15,20 +15,21 @@
 
 ###Agenda
 
-* Introduction from Robyn (10 min)
-* Introduction from Greg & Bita (10 min)
+* Introduction from Robyn (15 min)
+* Ice Breaker (20 min)
+* Introduction from Greg, Bita & Pete (10 min)
 * Schedule Graduation (5 min)
 * Create src/ (5 min)
 * Install homebrew, rbenv and Ruby 2.2 (45 min)
 * Install git using homebrew (5 min)
-* Intro Ruby (10 min)
-* BREAK (20 min)
+* ~~ BREAK ~~ (roughly 11:45am)
 * Setup git and Github credential helper (10 min)
 * Clone curriculum into src/ (5 min)
 * Practice pulling changes to the curriculum (5 min)
 * Create homework on Github and clone to src/ on computer (5 min)
-* Introduction to pairing (15 min)
-* Introduction to Ruby and programming (20 minutes)
+* Pushing to our homework repository (10 min)
+* Introduction to pairing (10 min)
+* Introduction to Ruby and programming (10 minutes)
 * Codealong Hello World (15 minutes)
 
 ---
@@ -65,19 +66,9 @@ We're now going to install homebrew, rbenv and ruby 2.2. You're probably wonderi
 
 * **Ruby** is, well, the best programming language ever. :)
 
-Let's go to the slides! http://slides.com/bitadj/bewd#/
+Let's go to the slides! http://slides.com/bitadj/bewd/live
 
 You can copy and paste from the slides, so open them above and follow along.
-
-##Intro Ruby
-
-Now that everything is installed, let's talk about Ruby briefly.
-
-To the slides: http://slides.com/thebucknerlife/bewd-intro-to-ruby
-
-**BREAK**
-
----
 
 ##Finish Git Setup
 
@@ -131,7 +122,7 @@ Then tell git to pull down any changes from Github.
 $ git pull
 ```
 
-You'll see git print some information to the shell as it get changes from Github and updates your directory. You know it worked if git doesn't say it failed.
+You'll see git print some information to the shell as it downloads changes from Github and updates your directory. You know it worked if git doesn't say it failed.
 
 Done! You will follow these same steps to pull down curriculum changes at the beginning of class and sometimes during class, breaks or after lunch.
 
@@ -143,7 +134,135 @@ Create our own repo then clone it? Yes. Just like I, your magnificent instructor
 
 ##Create homework on Github and clone to src/ on computer
 
-~~~~~~~~~~~~~~~~~~~~~~TODO~~~~~~~~~~~~~~~~~~
+Head to github.com. Once there, create a new repository and give it a descriptive name like "bewd-homework". You do not need to initialize with a README.
+
+Once you've done that, copy the HTTPS link in the **Quick Setup** pane at the top of the page. 
+
+Now hop into Terminal and navigate to your source code folder. Once there, clone your homework repository (using the link).
+
+```
+$ cd ~/src
+$ git clone https://github.com/YOUR-USERNAME/YOUR-HOMEWORK-REPO.git
+```
+
+So what did we just do? This was a little bit different than cloning the curriculum because we needed to create the repository first. We created an empty repository (which is just a directory of files) on Github under our individual accounts, then cloned the repository to our machines in our source code folder.
+
+The benefit of create a new repository for a project on Github first is that when we clone it, git also sets up the connection to push and pull to/from Github.
+
+Let's try it. Go into your homework folder and create a README. Then open the README and add a description.
+
+```
+$ cd bewd-homework
+$ touch README.md
+$ subl README.md
+```
+
+In Sublime Text...
+
+```
+# BEWD Homework
+
+This is my homework from General Assembly's Back-End Web Development course in Downtown Los Angeles.
+
+You can follow my progress here! Its going to be fun! :)
+```
+
+Save that file. Awesome, our repository has a readme file now. 
+
+By the way, a readme is simply a file named `README` with text that describes the contents of a directory and its sub-directories. We use all caps because we like to yell ;) haha just kidding we actually don't need to use caps at all. We could name the file `readme.extension`. It's just convention to name your readme `README.extension` because it's easier to see it when listing all a directories contents.
+
+Additionally, there is special significance to a readme on Github: Github will display your README file below the list of files and directories whenever one is present. Neat!
+
+One final detail: Why are we usind `README.md`? `md` is the file extension for [Markdown](http://daringfireball.net/projects/markdown/syntax), a syntax for writing pretty documents. Think of Markdown as the hackers alternative to Microsoft Word documents (the entire curriculum is written in Markdown). We could also use `README.txt` for a simple text file or a handful of other file formats.
+
+Onwards!
+
+####Pairing Exercise
+
+So, we just added a README to our homework repository. Is it up on Github? Take a second with your and go check Github. See the README? Why not? Talk with your pair about why it isn't on Github and brainstorm what we need to do to get the README from our machines to our repositories on Github.
+
+##Pushing to our homework repository
+
+We have changes that we want to snapshot with git and push to Github. What we need to do is tell git to keep track of the README and make a snapshot of our progress. Let's do it:
+
+```
+$ git add README.md
+$ git commit -m "Added amazing README"
+$ git push
+```
+
+Boom. Now go back to Github and check it out. Is your README there?
+
+I'm intentionally not going to tell you exactly what we did to push your changes to Github. For now, you can follow these more general steps whenever you want to put your homework on Github:
+
+```
+$ git add .
+$ git commit -m "Write a descriptive commit message here. Make sure it is in single or double."
+$ git push
+```
+
+For homework, you'll be reading through a beginners guide to git. Then we'll discuss it more next week!
+
+##Introduction to pairing
+
+We had you sit in pairs earlier today. Why is that? Pair Programming is a new technique in software development. Essentially two software engineers work together, _at one computer_, on a task (product feature, bugfix, refactoring, etc).
+
+If you're interested, you can read about the specific benefits at this blog post: [Why Pair Programming Works](http://cafe.elharo.com/programming/why-pair-programming-works/).
+
+I beleive pair programming is also an effective tool for learners. When you have a "buddy" you're learning next to, you can work together solving problems, getting unstuck, asking questions, and sharing your learnings together as you go.
+
+We'll have lots of exercises throughout the next 10 weeks that you'll do in pairs. And the pairs will switch between lessons.
+
+By the end of class, you'll not only know how to program but how to code with others. You'll have a deeper understanding of the topic because you'll constantly teaching and learning from your pair. And you'll have a few closer student friends from class :)
+
+##Introduction to Ruby and programming (10 minutes)
+
+Let's talk Ruby and programming!
+
+Go to the slides: http://slides.com/thebucknerlife/bewd-intro-to-ruby/live
+
+##Codealong Hello World (15 minutes)
+
+Let's get down to some coding! We're going to create a very simple program, just to make some magic happen. Then we'll take a step back and discuss the fundementals.
+
+In your folder for todays class, create a new file called `hello_world.rb`. Then open this directory in Sublime.
+
+```
+$ touch hellow_world.rb
+$ subl .
+```
+
+Inside that file, let's write our first line of Ruby ever:
+
+```
+puts "Hello World!"
+```
+
+What did we just do? 
+
+`puts` is a ruby method that prints a message to the screen. The message we're printing is "Hello World".
+
+That's pretty cool but we should run this file with ruby to see if it works, eh? Back in Terminal, tell ruby to run this file.
+
+```
+$ ruby hello_world.rb
+```
+
+Once you run that command, you should see this:
+
+```
+$ ruby hello_world.rb
+Hello World!
+$
+```
+
+That's it! We just told ruby (specifically the Ruby 2.2 installation we setup this morning) to run the program we wrote in `hello_world.rb`.
+
+More simply, we wrote some instructions (actually just one instruction) and then asked Ruby to do it.
+
+We know the program is finished because we've got an empty prompt `$` in Terminal. Not all programs run once and stop, though. Some run for a while and some run until they're stopped. But that's down the road from here (aka next class haha).
+
+Great job! 
 
 ---
 
