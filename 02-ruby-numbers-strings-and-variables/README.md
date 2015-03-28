@@ -5,74 +5,44 @@
 * Introduce Numbers
 * Use operators +, -, *, /, %
 * Lab - Using Integers
-* What is puts?
-* Strings and Characters
-* String addition
+* Introducing Letters - Strings
+* '50' versus 50
+* String addition and multiplication
 * Lab - Playing with Strings
-* Go a little deeper - Integers and Strings
-* Lab - Combining Integers and Strings
 * Storing things in memory - Variables
 * What does a variable point to?
 * Lab - Using variables
+* Input and Output with puts and gets
+* Methods and what they return
+* String methods and Integer methods
+* Lab - [Who Am I?](who_am_i.md)
 
 ---
 
-##Introduce Numbers
-
-Let's create a new file called `numbers.rb`. Inside of there, let's go ahead and play with some numbers.
-
-```
-5
-5.0
-```
-
-We'd think of those as the same thing, but in Ruby their actually two different thing.
-
-
-##Use operators +, -, *, /, %
-
-
-
 ##Lab - Using Integers
 
-NOTES
 - Calculate your age in seconds
-- How years are in 87786 days?
-- Is that even? How many days are left over?
-- How many 8 ounce drinks are in a bottle of 133.0 ounces of soda?
-
-##What is puts?
-
-A method of the Main class.
-
-##Strings and Characters
-
-
-
-##String addition
-
-'Hello my name is ' + 'Greg Buckner'
+- How many years are in 87786 days?
+- Is that round? How many days are left over?
 
 ##Lab - Playing with Strings
 
+- Try putting this string with both single quotes and double quotes: `You're the best`
+- What happened?
+- Try this: `puts '5' + 5`. What happened? Why didn't that work?
 
+##Lab - Using Variables
 
-##Go a little deeper - Integers and Strings
+- Create a new ruby file called `variables.rb`. In that file, write code that outputs the following when you run it:
 
+    ```
+      This is repeatative...
+      This is repeatative...
+      ...I'm glad I'm lazy!
+      ...I'm glad I'm lazy!
+      This is repeatative...
+    ```
 
+    You can only create those two strings once. Use variables.
 
-##Lab - Combining Integers and Strings
-
-
-
-##Storing things in memory - Variables
-
-
-
-##What does a variable point to?
-
-
-
-##Lab - Using variables
-
-
+##Lab - [Who Am I?](who_am_i.md)
