@@ -1,6 +1,6 @@
 #Ruby Strings, Numbers and Variables
 
-###Objectives
+###Agenda
 
 * Introduce Numbers
 * Use operators +, -, *, /, %
