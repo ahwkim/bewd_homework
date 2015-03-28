@@ -278,3 +278,5 @@ More simply, we wrote some instructions (actually just one instruction) and then
 We know the program is finished because we've got an empty prompt `$` in Terminal. Not all programs run once and stop, though. Some run for a while and some run until they're stopped. But that's down the road from here (aka next class haha).
 
 Great job!
+
+Hey guys
