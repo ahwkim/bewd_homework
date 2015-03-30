@@ -29,7 +29,6 @@
 
 - Try putting this string with both single quotes and double quotes: `You're the best`
 - What happened?
-- Try this: `puts '5' + 5`. What happened? Why didn't that work?
 
 ##Lab - Using Variables
 
