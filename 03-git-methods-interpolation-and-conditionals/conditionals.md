@@ -59,7 +59,7 @@ end
 
 * `>` - tests whether left side of the operator is **greater than** right side of the operator
 
-* `>` - tests whether left side of the operator is **less than** right side of the operator
+* `<` - tests whether left side of the operator is **less than** right side of the operator
 
 
 ####Returning a value
