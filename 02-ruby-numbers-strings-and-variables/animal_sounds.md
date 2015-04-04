@@ -8,7 +8,7 @@ Write a program that does the following:
 
 3. Put a sentence that describes the animal making their animal sound three times. For example: `The duck goes quack quack quack`.
 
-Example:
+Example: 
 
 ```
 Enter an animal that makes a sound:
