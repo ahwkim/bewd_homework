@@ -52,6 +52,6 @@ With your partner, write a script that does the following:
 2. Outputs the string.
 3. Outputs the string reversed and all capital letters.
 4. Outputs double the length of the string.
-5. _Stretch_ Outputs the first world, capitalized properly. (You probably need Google for this one.)
+5. _STRETCH_ Outputs the first word, capitalized properly. (You probably need Google for this one.)
 
 You can only use one variable. You can only use 5 (6 with the stretch goal) lines of Ruby code. Whitespace doesn't count as a line of Ruby.
