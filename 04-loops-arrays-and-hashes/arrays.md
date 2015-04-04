@@ -13,6 +13,7 @@ How do we create collections of things? Does Ruby have lists?
 * Demo - Building Arrays and Assiging Items
 * Can we combine an Array and a Loop? `each`
 * What are those Block Arguments?
+* Sidebar - Creating a nice interface in Ruby (vending machine)
 * Exercise - Hogwarts Attendance
 * Creating Empty Arrays and Using Them
 * Exercise - Todo Refactor 1
