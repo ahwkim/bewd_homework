@@ -15,6 +15,7 @@ if some_true_condition
     # this code runs
 else
     # this other code runs
+end
 ```
 **Ternary Operator**
 
