@@ -1,5 +1,8 @@
-Conditionals
-========
+#Conditionals
+---
+
+##Agenda
+---
 * What is a conditional?
 * Demo - Will I get paid today?
 * Ternary Operators - one line if/else
@@ -8,7 +11,7 @@ Conditionals
 * Method return values
 * Exercise - Breaking in
 
-**Typical `if/else` block**
+####Typical `if/else` block
 
 ```ruby
 if some_true_condition
@@ -17,25 +20,41 @@ else
     # this other code runs
 end
 ```
-**Ternary Operator**
+####Ternary Operator
 
 ```ruby
 if some_true_condition ? this code runs : otherwise this code
 ```
 
-**Typical `if/elsif/else` block**
+####Typical `if/elsif/else` block
 
 ```ruby
 if some_true_condition
     # do something
-elsif
+ elsif
     # do this other thing
  elsif
     # do this awesome thing
  else
     # do something different
+end
 ```
-**Returning a value**
+
+####Logical Operators
+
+* `&&` - tests that **BOTH** conditions on either side of the operator are true
+
+* `||` - tests that **AT LEAST ONE** condition on either side of the operator are true
+
+* `==` - tests whether left side of the operator is **equal to** right side of the operator
+	* this can be used to test the equality of strings as well as numbers
+
+* `>` - tests whether left side of the operator is **greater than** right side of the operator
+
+* `>` - tests whether left side of the operator is **less than** right side of the operator
+
+
+####Returning a value
 
 ```ruby
 message = if order_size == "small"
@@ -47,6 +66,8 @@ message = if order_size == "small"
     end
 ```
 Whatever block of code is exceuted, is stored as the value of `message`
+
+---
 
 ###Exercise - Breaking In
 With your partner write a program to break in to our super secure database. Your program will:
