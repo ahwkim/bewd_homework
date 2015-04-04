@@ -18,7 +18,7 @@ else
 ```
 **Ternary Operator**
 
-```
+```ruby
 if some_true_condition ? this code runs : otherwise this code
 ```
 
