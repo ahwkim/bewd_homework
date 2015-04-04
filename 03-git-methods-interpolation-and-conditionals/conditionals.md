@@ -11,6 +11,14 @@
 * Method return values
 * Exercise - Breaking in
 
+####Typical `if` block
+
+```ruby
+if some_true_condition
+    # this code runs
+end
+```
+
 ####Typical `if/else` block
 
 ```ruby
