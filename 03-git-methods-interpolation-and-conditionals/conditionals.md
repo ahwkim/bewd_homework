@@ -10,21 +10,22 @@ Conditionals
 
 **Typical `if/else` block**
 
-```
+```ruby
 if some_true_condition
     # this code runs
 else
     # this other code runs
+end
 ```
 **Ternary Operator**
 
-```
+```ruby
 if some_true_condition ? this code runs : otherwise this code
 ```
 
 **Typical `if/elsif/else` block**
 
-```
+```ruby
 if some_true_condition
     # do something
 elsif
@@ -36,7 +37,7 @@ elsif
 ```
 **Returning a value**
 
-```
+```ruby
 message = if order_size == "small"
         "making a small"
     elsif order_size == "medium"
