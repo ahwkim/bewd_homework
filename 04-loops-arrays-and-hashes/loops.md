@@ -43,7 +43,9 @@ WYP, write a program that does the following:
 
 1. Create a secret number between 1-10.
 2. Ask the user to guess the secret number.
-3. If they get it right, congratulate them. If they get it wrong, ask them to guess again.
+3. If they get it right, congratulate them.
+4. If they get it wrong, ask them if they want to try again.
+5. If they want to try again, ask them again (step 2 above). If no, quit your program.
 
 ###Exercise - Refactor with Random Number
 
