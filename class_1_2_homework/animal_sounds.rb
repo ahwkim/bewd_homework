@@ -22,4 +22,4 @@ number = number.to_i - 1
 
 my_string2 = (sound + ', ') * number 
 
-puts "The animal goes " + my_string2 + sound + "."
+puts "The animal goes " + my_string2 + sound + ".
