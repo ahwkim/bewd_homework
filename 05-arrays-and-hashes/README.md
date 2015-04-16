@@ -23,7 +23,8 @@
 * Students understand how to change existing keys
 * Students understand how to iterate over a Hash
 
-##Bonus
-As a bonus, try to do some of the exercises outlined in Arrays and Hashes.
- * [Arrays](arrays.md)
- * [Hashes](hashes.md)
+##Homework
+ * Read [Chapter 7: Arrays and Iterators](https://pine.fm/LearnToProgram/chap_07.html) from Chris Pine's Learn to Program. Try the examples yourself as you read the chapter.
+ * As a bonus, try to do some of the exercises outlined in Arrays and Hashes.
+  * [Arrays](arrays.md)
+  * [Hashes](hashes.md)
