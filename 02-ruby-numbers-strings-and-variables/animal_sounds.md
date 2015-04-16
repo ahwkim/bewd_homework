@@ -33,3 +33,5 @@ Instead of always 3 times, allow the user to change the number of times the anim
 BONUS 4
 
 Separate the animal sounds with commas like so: `The animal goes cluck, cluck, cluck`. Make sure you don't have an extraneous comma on the end of the sentence.
+
+**Solution** - [Animal Sounds](02-ruby-numbers-strings-and-variables/animal_sounds-COMPLETE.rb)
