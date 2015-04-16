@@ -28,7 +28,7 @@
 ---
 
 * Review last class (5 minutes)
-* [Review Homework](../02-ruby-numbers-strings-and-variables/homework.md) (10 minutes) - **Solution** - [Animal Sounds](../02-ruby-numbers-strings-and-variables/animal_sounds-COMPLETE.rb)
+* [Review Homework](../02-ruby-numbers-strings-and-variables/homework.md) (10 minutes) - **Solution:** [Animal Sounds](../02-ruby-numbers-strings-and-variables/animal_sounds-COMPLETE.rb)
 * [Git and Github](git-and-github.md) (30 minutes)
 * [String Interpolation](string-interpolation.md)
 * [Ruby Methods](methods.md) (30 minutes)
