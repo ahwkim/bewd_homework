@@ -1,7 +1,0 @@
-#Rails
----
-
-##Agenda
---
-
-* Woo wooo
