@@ -4,12 +4,12 @@
 ##Agenda
 ---
 * What is a conditional?
-* Demo - Will I get paid today?
+* Demo - [Will I get paid today?](getting_paid.rb)
 * Ternary Operators - one line if/else
-* Logical Operators 
+* Logical Operators
 * Short circuit evaluation
 * Method return values
-* Exercise - Breaking in
+* Exercise - [Breaking in](military-access-complete.rb)
 
 ####Typical `if` block
 

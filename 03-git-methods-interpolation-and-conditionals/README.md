@@ -28,9 +28,11 @@
 ---
 
 * Review last class (5 minutes)
-* Homework (10 minutes)
+* [Review Homework](../02-ruby-numbers-strings-and-variables/homework.md) (10 minutes) - **Solution:** [Animal Sounds](../02-ruby-numbers-strings-and-variables/animal_sounds-COMPLETE.rb)
 * [Git and Github](git-and-github.md) (30 minutes)
 * [String Interpolation](string-interpolation.md)
 * [Ruby Methods](methods.md) (30 minutes)
 * Break (20 minutes)
 * [Conditionals](conditionals.md) (80 minutes)
+* [IF Bita gets paid](getting_paid.rb)
+* Exercise - [Breaking In](military-access-complete.rb)
