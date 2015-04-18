@@ -90,7 +90,7 @@ Create a Ruby script called `api_navigating.rb` then, using HTTParty, write a Ru
 1. The `link` inside the 2nd Hot story
 2. The `size` of the last responsive image in the 6th New story
 3. The number of `twitter` shares for the 1st story in Hot
-4. The `excerpt` from the 8th story in Rising
+4. The `channel` from the 8th story in Rising
 
 ###Exercise - Mashable Headlines
 
