@@ -33,7 +33,7 @@ Use Chrome to explore the data and write some notes before doing any code. Use `
 BONUSES
 
 1. Only output the first 20 *Fiction* books. Skip any books that are not Fiction.
-2. Move this logic into a Sinatra app. Output the book list as the homepage of the app.
+2. Move this logic into a Sinatra app. Output the book list as the homepage of the app.See the sample Mashable app [here](sample_sinatra_mash) to see how we marry HTTParty and Sinatra. HINT: You will need to use multiple lines of ERB in your view file with `<%= @stories.each do |story| %>` to get this to work.
 
 EXTRA EXTRA BONUS
 
