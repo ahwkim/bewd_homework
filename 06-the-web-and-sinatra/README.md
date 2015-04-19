@@ -12,4 +12,4 @@ Substitute class taught by the amazing [Jeff Dickey](https://github.com/dickeyxx
 ##Homework
 ---
 
-See homework [here](sinatra/READ.md)
+See homework [here](sinatra/README.md)
