@@ -1,0 +1,8 @@
+<h1>USA Today's Blah Blah</h1>
+
+<% @books.each do |book| %>
+#<%= book['rank'] %><br>
+Title: <%= book['Title'] %><br>
+Description: <%= book['BriefDescription'] %><br>
+<hr>
+<% end %>
