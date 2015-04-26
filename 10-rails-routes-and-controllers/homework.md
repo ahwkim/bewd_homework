@@ -4,7 +4,7 @@
 Do the following assignments:
 
 1. Random Zen
-2. Animal Translator
+2. Hack The System
 
 **Optional** Do the practice apps below the homework.
 
