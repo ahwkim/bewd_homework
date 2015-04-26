@@ -20,9 +20,7 @@ Create a simple rails app called Random Zen (`rails new random_zen`) that does t
 2. Include a link to 'Google it!' which will open a Google search of the quote in a new tab with.
 3. Style the Zen quote to be a random color (hint below if you want it).
 
-*Hint*
-
-*Bonus 3: You might need some css and some erb :)*
+*Bonus 3 Hint: You might need some css and some erb :)*
 
 ###2. Hack The System
 
