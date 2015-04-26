@@ -18,9 +18,7 @@ Create a simple rails app called Random Zen (`rails new random_zen`) that does t
 
 1. Include a random nature image using [Lorem Pixel](http://lorempixel.com/)
 2. Include a link to 'Google it!' which will open a Google search of the quote in a new tab with.
-3. Style the Zen quote to be a random color (hint below if you want it).
-
-*Bonus 3 Hint: You might need some css and some erb :)*
+3. Style the Zen quote to be a random color (there is a hint in italics if you want it...) *Bonus 3 Hint: You might need some css and some erb :)*
 
 ###2. Hack The System
 
