@@ -5,7 +5,7 @@
 ---
 
 * Lab - Monkey Form in Rails (20m)
-* Rails Routes _b_
+* [Rails Routes](rails_routes_and_resources.md) _b_
 * Pattern Matching _b_
 * Parameters _b_
 * Custom Routes _b_
