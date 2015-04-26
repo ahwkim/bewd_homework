@@ -32,6 +32,7 @@
  - It's a hash! You call parameters the same way you call elements in hashes: by their key. 
  
 ###Resources
+ - We will talk about these in class 11/12
  - Resources map **HTTP Verbs** to Controller actions automatically. 
  - Will give you 8 routes:
  
@@ -47,6 +48,65 @@
 	
 	 ```
 
-###Rails Routes v. Sinatra Routes
+###Rails Routes v. Sinatra Routing
 
+ - ####Sinatra
+ 
+ 	**Every action lives in two files**
+ 
+ 	`/src/hello_world_sinatra/app.rb`
+ 	
+ 	```
+ 	get '/formal' do
+		@message = "Hello, sir!"
+		erb :formal
+	end
+ 	```
+ 	`src/hello_world_sinatra/views/formal.erb`
+ 	
+ 	```
+ 	<h1><%= @message %></h1>
+ 	```
+ 	
+ - ####Rails
+ 
+ 	**Every action lives in three files**
+ 	
+ 	`/src/hello_world_rails/config/routes.rb`
+ 	
+ 	```
+ 	get '/formal' => 'hello#formal'
+ 	```
+ 	`/src/hello_world_rails/app/controllers/hello_controller`
+ 	
+ 	``` 	
+	class HelloController < ApplicationController
+	
+		def formal
+			@message = "Hello, sir!"
+		end
+		
+	end
+	
+ 	```
+ 	`/src/hello_world_rails/app/views/formal.html.erb`
+ 	
+ 	```
+ 	 <h1><%= @message %></h1>
+ 	```
+ 	
+	
 ###HTTP Verbs
+ - 5 HTTP Verbs. We will talk about these in class 11/12
+ 
+ 	```
+	GET
+	PUT
+	PATCH
+	POST
+	DELETE
+ 	```
+
+
+
+
