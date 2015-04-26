@@ -6,14 +6,7 @@ Do the following assignments:
 1. Random Zen
 2. Animal Translator
 
-For practice, you can build these Rails apps too:
-
-1. Parrot Form in Rails
-2. NASA Random Photo
-3. USA Today in Rails
-4. Pokedex (challenging)
-
-Some of the bonuses are challenging. Ask for help if you need it.
+**Optional** Do the practice apps below the homework.
 
 ###1. Random Zen
 
@@ -45,8 +38,17 @@ Create a simple rails app called Hack The System (`rails new animal_translator`)
 * On the failure page, include a link to return to the login page and try again.
 * On the mainframe page, include a link to return to the homepage. Call this link "Logout".
 
-##Practice
+##Practice Apps
 ---
+
+For practice, you can build these Rails apps too:
+
+1. Parrot Form in Rails
+2. NASA Random Photo
+3. USA Today in Rails
+4. Pokedex (challenging)
+
+Some of the bonuses are challenging. Ask for help if you need it.
 
 ###1. Parrot Form in Rails
 
@@ -55,7 +57,9 @@ Write a Rails app with the follwing functionality:
 * On the homepage (`/`), display a text field and a submit button
 * When someone presses submit, take them to the `/parrot` page. On the Parrot page, repeat what they wrote in the form back to them in quotes. Include `The Parrot says` in front of the quotation.
 
-* Bonus 1: If they don't enter anything into the form, redirect them back to the homepage.
+*Bonuses*
+
+* If they don't enter anything into the form, redirect them back to the homepage.
 
 ###2. NASA Random Photo
 
@@ -65,7 +69,9 @@ Write a Rails app that does the following:
 * On `/today`, show the user today's Astronomy Photo of the Day.
 * Include links to let the use go back-and-forth between the Random page and the Today page.
 
-* Bonus 1: Try to figure out how to detect if the API returns a bad response because (1) there is not photo today or (2) your random day doesn't exist or didn't have a photo. If the user wants today's photo and the response is bad, show them yesterday's photo. If the user wants a random photo and it is bad, redirect to `/random` again (because that will fetch a different day).
+*Bonuses*
+
+* Try to figure out how to detect if the API returns a bad response because (1) there is not photo today or (2) your random day doesn't exist or didn't have a photo. If the user wants today's photo and the response is bad, show them yesterday's photo. If the user wants a random photo and it is bad, redirect to `/random` again (because that will fetch a different day).
 
 ###3. USA Today in Rails
 
