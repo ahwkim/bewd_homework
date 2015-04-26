@@ -55,7 +55,7 @@ Write a Rails app with the follwing functionality:
 
 *Bonuses*
 
-* If they don't enter anything into the form, redirect them back to the homepage.
+1. If they don't enter anything into the form, redirect them back to the homepage.
 
 ###2. NASA Random Photo
 
@@ -67,7 +67,7 @@ Write a Rails app that does the following:
 
 *Bonuses*
 
-* Try to figure out how to detect if the API returns a bad response because (1) there is not photo today or (2) your random day doesn't exist or didn't have a photo. If the user wants today's photo and the response is bad, show them yesterday's photo. If the user wants a random photo and it is bad, redirect to `/random` again (because that will fetch a different day).
+1. Try to figure out how to detect if the API returns a bad response because (1) there is not photo today or (2) your random day doesn't exist or didn't have a photo. If the user wants today's photo and the response is bad, show them yesterday's photo. If the user wants a random photo and it is bad, redirect to `/random` again (because that will fetch a different day).
 
 ###3. USA Today in Rails
 
@@ -86,5 +86,5 @@ Create a simple rails app called `pokedex` that does the following (using the [P
 
 *Bonuses*
 
-* On the pokemon details page, show the pokemon's image (also known as a sprite).
-* On the pokemon details page, include a link to the details page of the next evolution the pokemon will transfor into.
+1. On the pokemon details page, show the pokemon's image (also known as a sprite).
+2. On the pokemon details page, include a link to the details page of the next evolution the pokemon will transfor into.
