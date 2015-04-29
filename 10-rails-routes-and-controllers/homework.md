@@ -24,7 +24,7 @@ Create a simple rails app called Random Zen (`rails new random_zen`) that does t
 
 We're going to create a login page for a fictional super secret secure military base.
 
-Create a simple rails app called Hack The System (`rails new animal_translator`) that does the following:
+Create a simple rails app called Hack The System (`rails new hack_the_system`) that does the following:
 
 * On the homepage, welcome users to the **Super Secret Military Mainframe** with a link to 'login'.
 * On the login page, ask the user to enter their Super Secret Security Code.
