@@ -1,0 +1,10 @@
+<h1>Welcome to Garageio, Mr. Wayne.</h1>
+
+<% @cars.each do |car| %>
+
+<p><b><%= car.model %></b></p>
+<li>Make: <%= car.make %></li>
+<li>Year: <%= car.year %></li>
+<li>Color: <%= car.color %></li>
+<li>Nickname: <%= car.nickname %></li>
+<% end %>

@@ -1,0 +1,20 @@
+<h1>New Articles</h1>
+
+<!-- this is a ruby loop in ERB tags -->
+<% @new_articles.each do |art| %>
+
+  <h2><%= art['title'] %></h2>
+  <p>by <%= art['author'] %> in channel <%= art['channel'] %></p>
+  
+  <!-- this is a ruby conditional in ERB tags -->
+  <% if art['comments_count'] > 1 %>
+    <p><b><%= art['comments_count'] %> Comments</b></p>
+  <% elsif art['comments_count'] == 1 %>
+    <p><b>1 Comment</b></p>
+  <% else %>
+    <p><b>No Comments</b></p>
+  <% end %>
+  <!-- end of the conditional -->
+
+<% end %>
+<!-- end of the loop -->

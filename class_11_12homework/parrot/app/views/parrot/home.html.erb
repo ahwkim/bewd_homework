@@ -1,0 +1,10 @@
+<h1><%= @message %></h1></br>
+<img src= "http://imgstocks.com/wp-content/uploads/2013/10/Parrot-parrots-bird-bird-cute.jpg" height= "500" width='800' >
+
+<form action ="pollysayz" method="post">
+	<input type='text' name='parrot_string'>
+	<%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %> 
+	<br>
+	<input type='submit' value='Submit'>
+</form>
+
