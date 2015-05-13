@@ -1,0 +1,24 @@
+<h1>Add a dog to our database</h1>
+
+<%= form_for @dog do |d| %>
+
+  Name
+  <%= d.text_field :name %><br>
+
+  Breed
+  <%= d.text_field :breed %><br>
+
+  Color
+  <%= d.text_field :color %><br>
+
+  Size
+  <%= d.text_field :size %><br>
+
+  Age
+  <%= d.text_field :age %><br>
+
+  Image URL
+  <%= d.text_field :image %><br>
+
+  <%= d.submit %>
+<% end %>

@@ -1,0 +1,15 @@
+<h1>Pasadena Humane Society</h1>
+<p>Here are our dogs:</p>
+
+<ul>
+
+<% @dog.each do |d| %>
+	<li>
+		<a href="/dog/<%= d.id %>"> <%= d.name %> </a>
+
+	</li>
+<% end %>
+
+</ul><br>
+
+<a href="/new">Add a dog to our database!</a>
