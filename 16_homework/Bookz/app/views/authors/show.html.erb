@@ -1,0 +1,24 @@
+<h1><%= @author.name %></h1>
+
+<%= link_to 'Home', root_path %>
+
+<h2>Books by <%= @author.name %></h2>
+
+<table class='table'>
+  <thead>
+    <th>Title</th>
+    <th>Author</th>
+    <th>Genre</th>
+    <th>Year</th>
+  </thead>
+  <tbody>
+    <% @author.books.each do |b| %>
+    <tr>
+      <td><%= b.title %></td>
+      <td><%= b.author.name %></td>
+      <td><%= b.genre %></td>
+      <td><%= b.year_published %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>

@@ -1,0 +1,18 @@
+<h1>Add Author</h1>
+
+<!-- all the classes and the extra divs are only for bootstrap formatting -->
+<!-- they have nothing to do with rails -->
+
+<div style='width: 300px'>
+<!-- because bootstrap makes inputs width:100% so if... -->
+<!-- you don't put them in a div with a fixed width they... -->
+<!-- span the whole page -->
+  <%= form_for @author do |f| %>
+    <div class="form-group">
+      <%= f.label :name %>
+      <%= f.text_field :name, class: 'form-control' %>
+    </div>
+
+    <%= f.submit 'Add Author', class: 'btn btn-warning' %>
+  <% end %>
+</div>
