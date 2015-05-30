@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+<div class="row vertical-center-row">
+
+<h1 class="text-center"><b>Welcome to Jobz.com</b></h1>
+<h3 class="text-center">Your premier job search site</h3>
+<p class="text-center"><i>(If you're Annie Kim)</i></p><br>
+
+<img src="http://i.imgur.com/jqZonsT.jpg", width='500' ><br>
+
+<button type="button" class="btn btn-success"><%= link_to 'Add Job', new_job_path %></button> | <button type="button" class="btn btn-info"><%= link_to 'Add Company', new_company_path %></button><br>
+
+<table class="table table-hover">
+  <thead>
+    <th>Company Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>URL</th>
+  </thead>
+  <tbody>
+    <% @jobs.each do |j| %>
+    <tr>
+      <td><%= j.title %></td>
+      <td><%= j.company.name %></td>
+      <td><%= j.description%></td>
+      <td><%= j.url %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<h2>All Companies</h2>
+
+<ul>
+  <% @company.each do |c| %>
+    <li><%= link_to "#{c.id} | #{c.name}", company_path(c) %></li>
+  <% end %>
+</ul>
+</div>
+</div>
+</body>
+</html>
