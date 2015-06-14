@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><img alt="Brand" src="https://s3.amazonaws.com/webassets.ticketmob.com/LS/images/ShowPosters/unicef_us_fund.jpg" width="80" align="center"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="/fellows/new">Submit a Story<span class="sr-only">(current)</span></a></li>
+        <li><a href="/list/show">View Stories</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Previous Newsletters <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="http://issuu.com/usfglobalcitizenship/docs/gcf_newsletter_q1_53155eb50288ae/1">Quarter One</a></li>
+            <li><a href="http://issuu.com/usfglobalcitizenship/docs/q2_4c8b5cc56c2861/1">Quarter Two</a></li>
+            <li><a href="http://issuu.com/usfglobalcitizenship/docs/q3__2_">Quarter Three</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://www.unicefusa.org">U.S. Fund for UNICEF</a></li>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+<h1>The Fellows' Stories</h1>
+<br><br>
+
+<table class="table-bordered">
+<thead>
+      <tr>
+        <th>Fellow Name</th>
+        <th>City or Program</th>
+        <th>Story</th>
+        <th>Picture</th>
+        <th>Caption</th>
+      </tr>
+    </thead>
+<tbody.table-hover>
+      <tr>
+      <% @fellows.each do |f| %>
+        <td><%= f.full_name %></td>
+        <td><%= f.city_or_program %> </td>
+        <td><%= f.story %> </td>
+        <td><%= image_tag f.picture.url, width: 500 %></td>
+        <td><%= f.caption %></td>
+      </tr>
+      <% end %><br><hr>
+    </tbody>
+  </table>
+</div>
+
+</html>
