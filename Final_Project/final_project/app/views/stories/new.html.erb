@@ -41,24 +41,31 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
- 
-  <body>
-  <p class="bg-success">
-    <% flash.each do |name, msg| -%>
-      <%= content_tag :div, msg, class: name %>
-    <% end -%>
-  </p>
-  </body>
 
 <div class="jumbotron">
-  <h1>GCF Newsletter Story Submission</h1><hr>
+  <h1>Submit your story here</h1><hr>
   <div class="centered">
-    <img src="http://i.imgur.com/8Vt1q9d.jpg" width= "1000"><br>
-  </div><br>
-  <div class="center-block">
-    <button type="button" class="btn btn-info btn-lg"><a href="/stories/new">Submit your story here</a></button>
-  </div>
-  <br>
-</div>
+    <img src="http://i.imgur.com/ZUqrmG6.png" width= "500"><br><br><br>
+    <p1>Please select your city or program:</p1><br>
+    <%= select("post", "user_id", User.all.collect {|p| [ p.fellow ] }, {include_blank: 'None'}) %>
+  </div><br><br>
+  
+  <%= bootstrap_form_for(@story, layout: :horizontal, label_col: "col-sm-2", control_col: "col-sm-10") do |f| %>
 
+  <%= f.text_field :category, help:"Choose the Primary USF Campaign Affiliation." %>
+
+  <%= f.text_area :story, help:"Please write in third person." %>
+
+  <%= f.file_field :image, help:"Upload your picture here." %>
+
+  <%= f.text_field :caption %>
+
+  <%= f.text_area :reflection, help:"What was your favorite memory over the last year?" %>
+
+  <%= f.submit 'Submit' %>
+  
+<% end %>
+  <br><br>
+
+</div>
 </html>
